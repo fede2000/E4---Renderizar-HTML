@@ -5,25 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/style.css">
-    <title>E3 - Eventos y DOM</title>
+    <title>E4 - Renderizar HTML</title>
 </head>
 <body>
     <main>
-        <h1>Busca tu pizza en nuestro menu</h1>
+        <h1 class="title">Busca tu pizza en nuestro menu</h1>
 
         <div class="buscador">
-            <input type="number" name="" id="numero__id">
+            <input type="text" name="" id="nombre__pizza">
             <button id="btnBuscar">Buscar</button>
+            <button id="btnMenu">Mostrar Menu</button>
             
         </div>
-        <div class="container">
-            <div class="container--img" id="container--img"></div>
-            <div class="container--info">
-                <h2 id="nombre__pizza"></h2>
-                <h4 id="precio__pizza"></h4>
-            </div>
-    
-        </div>
+        <ul class="list-menu" id="list-menu">
+        </ul>
     </main>
 
     
